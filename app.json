@@ -1,3 +1,4 @@
+
 {
   "expo": {
     "name": "Inlis Dili TM",
@@ -5,15 +6,14 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
-    "splash": {
-      "resizeMode": "contain",
-      "backgroundColor": "#1B2A4A"
-    },
     "android": {
       "package": "com.englishtutor.tm",
       "adaptiveIcon": {
         "backgroundColor": "#1B2A4A"
-      }
+      },
+      "compileSdkVersion": 34,
+      "targetSdkVersion": 34,
+      "buildToolsVersion": "34.0.0"
     },
     "platforms": ["ios", "android"],
     "extra": {
