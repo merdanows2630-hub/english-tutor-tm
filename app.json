@@ -5,28 +5,22 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
-    "android": {
-  "package": "com.englishtutor.tm",
-  "adaptiveIcon": {
-    "backgroundColor": "#1B2A4A"
-  }
-}
-      },
-      "compileSdkVersion": 34,
-      "targetSdkVersion": 34,
-      "buildToolsVersion": "34.0.0"
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#1B2A4A"
     },
-    "platforms": [
-      "ios",
-      "android"
-    ],
+    "android": {
+      "package": "com.englishtutor.tm",
+      "adaptiveIcon": {
+        "backgroundColor": "#1B2A4A"
+      }
+    },
+    "platforms": ["ios", "android"],
+    "plugins": ["expo-font"],
     "extra": {
       "eas": {
         "projectId": "ac72d877-5384-4a62-9753-8d70bc678a6d"
       }
-    },
-    "plugins": [
-      "expo-font"
-    ]
+    }
   }
 }
