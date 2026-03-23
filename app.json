@@ -1,4 +1,3 @@
-
 {
   "expo": {
     "name": "Inlis Dili TM",
@@ -7,19 +6,27 @@
     "orientation": "portrait",
     "userInterfaceStyle": "light",
     "android": {
-      "package": "com.englishtutor.tm",
-      "adaptiveIcon": {
-        "backgroundColor": "#1B2A4A"
+  "package": "com.englishtutor.tm",
+  "adaptiveIcon": {
+    "backgroundColor": "#1B2A4A"
+  }
+}
       },
       "compileSdkVersion": 34,
       "targetSdkVersion": 34,
       "buildToolsVersion": "34.0.0"
     },
-    "platforms": ["ios", "android"],
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "extra": {
       "eas": {
         "projectId": "ac72d877-5384-4a62-9753-8d70bc678a6d"
       }
-    }
+    },
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
